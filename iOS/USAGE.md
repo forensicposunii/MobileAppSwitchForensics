@@ -1,9 +1,6 @@
 # 🍎 iOS App Switching Artifacts — Usage Guide
 
-이 디렉터리는 **iOS 앱 전환(App Switcher) 아티팩트**를 분석하여  
-앱의 실행 타임라인과 스냅샷 이미지를 교차 검증하는 도구를 포함합니다.  
-이 스크립트들은 KnowledgeC.db, applicationState.db, Snapshot 파일을 기반으로  
-사용자 행위를 시각화하고 앱 사용 내역을 증거화하는 목적에 사용됩니다.
+이 디렉터리는 **iOS 앱 전환(App Switcher) 아티팩트**를 분석하여 앱의 실행 타임라인과 스냅샷 이미지를 교차 검증하는 도구입니다. 이 스크립트들은 KnowledgeC.db, applicationState.db, Snapshot 파일을 기반으로 사용자 행위를 시각화하고 앱 사용 내역을 추출합니다.
 
 ---
 
