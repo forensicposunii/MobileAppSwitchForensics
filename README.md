@@ -21,7 +21,3 @@ MobileAppSwitchForensics parses and correlates multiple artifacts to reconstruct
 ### Output
 - Structured SQLite databases (`*_parsed.sqlite`)
 - HTML visualization reports (per app or per timeline)
-
----
-
-## 🧠 System Architecture
