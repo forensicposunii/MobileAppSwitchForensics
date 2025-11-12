@@ -1,19 +1,27 @@
-📱 iOS App Switching Artifacts — Usage Guide
+# 🍎 iOS App Switching Artifacts — Usage Guide
 
-이 디렉터리는 iOS 앱 전환(App Switcher) 아티팩트를 분석하여
-앱의 사용 타임라인과 스냅샷 데이터를 교차 검증하는 도구입니다.
+이 디렉터리는 **iOS 앱 전환(App Switcher) 아티팩트**를 분석하여  
+앱의 실행 타임라인과 스냅샷 이미지를 교차 검증하는 도구를 포함합니다.  
+이 스크립트들은 KnowledgeC.db, applicationState.db, Snapshot 파일을 기반으로  
+사용자 행위를 시각화하고 앱 사용 내역을 증거화하는 목적에 사용됩니다.
 
-1) 폴더 구조 & 준비물
+---
+
+## 📁 Folder Structure
+
+```plaintext
 iOS/
- ├─ USAGE.md                 ← (이 문서)
- ├─ kc_to_sqlite.py          ← KnowledgeC.db 파서
- ├─ appstate_snapshots.py    ← applicationState.db + 스냅샷 매핑
- ├─ build_ios_report_by_app.py ← 앱별 HTML 리포트 생성기
- ├─ ios_ktx2png.exe          ← iOS 스냅샷(KTX) → PNG 변환기
- └─ data/                    ← ★ 필수: 아래 3개가 들어 있어야 함
-     ├─ KnowledgeC.db        ← 행동 기록 DB
-     ├─ applicationState.db  ← 앱 상태 관리 DB
-     └─ snapshots/           ← 스냅샷(.ktx) 파일이 들어있는 폴더(하위 폴더 구조 포함)
+ ├─ USAGE.md                      # (이 문서)
+ ├─ kc_to_sqlite.py               # KnowledgeC.db 파서
+ ├─ appstate_snapshots.py         # applicationState.db + 스냅샷 매핑
+ ├─ build_ios_report_by_app.py    # 앱별 HTML 리포트 생성기
+ ├─ ios_ktx2png.exe               # KTX → PNG 변환기
+ └─ data/                         # ⚠️ 필수 폴더
+     ├─ KnowledgeC.db             # iOS 행동기록 DB
+     ├─ applicationState.db       # 앱 상태 관리 DB
+     └─ snapshots/                # 스냅샷(.ktx) 파일 폴더
+
+```
 
 ✅ 중요
 iOS/data/ 폴더에는 반드시
