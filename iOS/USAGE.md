@@ -49,17 +49,3 @@ python build_ios_report_by_app.py --dir .
 Output:
 iOS/ios_by_app.html
 
----
-
-## External Component Notice
-
-This project includes a binary tool derived from an external open-source project:
-
-- **ios_ktx2png.exe**  
-  - **Source:** [GitHub - ydkhatri/MacForensics (IOS_KTX_TO_PNG)](https://github.com/ydkhatri/MacForensics/blob/master/IOS_KTX_TO_PNG/ios_ktx2png.py)  
-  - **Author:** Yogesh Khatri  
-  - **License:** MIT License  
-  - **Description:**  
-    This executable is based on the original `ios_ktx2png.py` script from the *MacForensics* repository.  
-    It is used to decode and convert iOS snapshot files (`.ktx`, Apple-modified KTX format) into standard `.png` images for forensic analysis and visualization.
-
