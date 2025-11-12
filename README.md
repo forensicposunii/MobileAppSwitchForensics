@@ -24,15 +24,15 @@ MobileAppSwitchForensics parses and correlates multiple artifacts to reconstruct
 
 ---
 
-## External Component Notice
+### Third-Party Components Notice
 
-This project includes a binary tool derived from an external open-source project:
+This project includes the following external component:
 
 - **ios_ktx2png.exe**  
-  - **Source:** [GitHub - ydkhatri/MacForensics (IOS_KTX_TO_PNG)](https://github.com/ydkhatri/MacForensics/blob/master/IOS_KTX_TO_PNG/ios_ktx2png.py)  
-  - **Author:** Yogesh Khatri  
-  - **License:** MIT License  
-  - **Description:**  
-    This executable is based on the original `ios_ktx2png.py` script from the *MacForensics* repository.  
-    It is used to decode and convert iOS snapshot files (`.ktx`, Apple-modified KTX format) into standard `.png` images for forensic analysis and visualization.
+  - Source: [GitHub - ydkhatri/MacForensics (IOS_KTX_TO_PNG)](https://github.com/ydkhatri/MacForensics/blob/master/IOS_KTX_TO_PNG/ios_ktx2png.py)  
+  - Author: Yogesh Khatri  
+  - License: MIT License  
+  - Description: A tool originally written to convert iOS KTX snapshot files to PNG. Modified/packaged here for use in this project.
+
+
 
