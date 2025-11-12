@@ -21,3 +21,18 @@ MobileAppSwitchForensics parses and correlates multiple artifacts to reconstruct
 ### Output
 - Structured SQLite databases (`*_parsed.sqlite`)
 - HTML visualization reports (per app or per timeline)
+
+---
+
+## External Component Notice
+
+This project includes a binary tool derived from an external open-source project:
+
+- **ios_ktx2png.exe**  
+  - **Source:** [GitHub - ydkhatri/MacForensics (IOS_KTX_TO_PNG)](https://github.com/ydkhatri/MacForensics/blob/master/IOS_KTX_TO_PNG/ios_ktx2png.py)  
+  - **Author:** Yogesh Khatri  
+  - **License:** MIT License  
+  - **Description:**  
+    This executable is based on the original `ios_ktx2png.py` script from the *MacForensics* repository.  
+    It is used to decode and convert iOS snapshot files (`.ktx`, Apple-modified KTX format) into standard `.png` images for forensic analysis and visualization.
+
