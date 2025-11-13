@@ -34,5 +34,33 @@ This project includes the following external component:
   - License: MIT License  
   - Description: A tool originally written to convert iOS KTX snapshot files to PNG. Modified/packaged here for use in this project.
 
+- **ALEAPP / iLEAPP Components (Android)**
 
+This project includes selected modules derived from the following open-source projects:
+
+  - ALEAPP (Android Logs, Events, And Protobuf Parser)
+
+  - Source: https://github.com/abrignoni/ALEAPP
+  - Authors: Alexis Brignoni, Yogesh Khatri
+  - License: MIT License
+
+The following files in this project originate from (or are modified versions of) ALEAPP/iLEAPP modules:
+
+```
+scripts/ilapfuncs.py
+scripts/filetype.py
+scripts/lavafuncs.py
+scripts/artifact_report.py
+protobuf/usagestatsservice_pb2.py
+protobuf/usagestatsservice_v2_pb2.py
+protobuf/configuration_pb2.py
+protobuf/privacy_pb2.py
+protobuf/window_configuration_pb2.py
+(and other dependent protobuf modules required for Android UsageStats decoding)
+```
+
+Description:
+These modules were originally created to parse Android artifacts in ALEAPP.
+For this project, they are selectively included and adapted to support automated analysis of Android app-switching artifacts (UsageStats, Recent Tasks, Snapshots).
+All modifications remain under the original MIT License.
 
