@@ -34,12 +34,11 @@ This project includes the following external component:
   - License: MIT License  
   - Description: A tool originally written to convert iOS KTX snapshot files to PNG. Modified/packaged here for use in this project.
 
-- **ALEAPP / iLEAPP Components (Android)**
 
 This project includes selected modules derived from the following open-source projects:
 
+- **ALEAPP / iLEAPP Components (Android)**
   - ALEAPP (Android Logs, Events, And Protobuf Parser)
-
   - Source: https://github.com/abrignoni/ALEAPP
   - Authors: Alexis Brignoni, Yogesh Khatri
   - License: MIT License
